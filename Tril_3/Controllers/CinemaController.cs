@@ -18,6 +18,7 @@ namespace Tril_3.Controllers
         [HttpGet]
         public IActionResult Get(int id)
         {
+            ///kkkk
             return Ok(context.GetCinemaById(id));
         }
         [HttpGet("all")]
